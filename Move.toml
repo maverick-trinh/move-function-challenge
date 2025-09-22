@@ -1,0 +1,8 @@
+[package]
+name = "sharded_assets"
+edition = "2024.beta"
+
+[dependencies]
+
+[addresses]
+sharded_assets = "0x0"
