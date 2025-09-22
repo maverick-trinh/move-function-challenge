@@ -1,4 +1,4 @@
-module sharded_assets::item {
+module sharded_assets::item;
 
 use std::string::String;
 use sui::object::{Self, UID, ID};
@@ -31,5 +31,4 @@ public fun get_id(self: &Item): ID {
 
 public fun get_name(self: &Item): String {
     self.name
-}
 }
